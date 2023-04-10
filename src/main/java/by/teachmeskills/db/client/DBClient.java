@@ -14,8 +14,8 @@ public class DBClient {
     //TODO Change to your root password
     public static final String PASSWORD = "12345";
 
-    private Connection connection = null;
-    private Statement statement = null;
+    protected Connection connection = null;
+    protected Statement statement = null;
 
     public void connect() {
         try {
